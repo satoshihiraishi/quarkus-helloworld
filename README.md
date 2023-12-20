@@ -35,7 +35,7 @@ java -jar build/quarkus-app/quarkus-run.jar
 また、GraalVMがインストールされていない場合は、以下のコマンドでコンテナ内でネイティブ実行可能ファイルのビルドを行うことができます。
 
 ```code
-./gradlew build -Dquarkus.package.type=native -Dquarkus.native.container-build=true
+./gradlew build -Dquarkus.package.type=native
 ```
 
 ネイティブ実行可能ファイルは以下のコマンドで実行できます。
